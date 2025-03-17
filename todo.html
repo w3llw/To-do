@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="/style/output.css">
+    <link rel="stylesheet" href="style/todo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="container mx-auto p-5 max-w-md border-gray-400 rounded-md shadow-sm">
+        <div class="flex justify-center items-center mb-4 space-x-2">
+            <h1 class="text-2xl font-bold">TO DO</h1>
+        </div>
+
+        <form id="todoForm" class="mb-4">
+            <div class="mb-2">
+                <input type="text" id="todoInput" required placeholder="what we gonna do today bro ?"
+                    class="mt-1 block w-full px-3 py-3 drop-shadow-md focus:outline-none sm:text-sm">
+            </div>
+            <button type="submit"
+                class="px-4 py-2 rounded-md font-bold">Добавить</button>
+        </form>
+
+        <ul id="todoList" class="space-y-4">
+        </ul>
+
+        <p id="noTodoMessage" class="text-center">Нет добавленных задач</p>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

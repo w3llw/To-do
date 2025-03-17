@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+* {
+    font-family: "Tektur", sans-serif;
+}
+
+
+body {
+    background-color: rgb(222, 169, 72);
+}
+.container {
+    color: rgb(72, 54, 31);
+    background-color: rgb(250, 222, 188);
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.mt-1 {
+    background-color: rgb(219, 195, 165);
+    border-radius: 5rem;
+}
+
+.px-4 {
+    background-color: rgb(72, 54, 31);
+    color: rgb(250, 222, 188);
+    margin-top: 0.3em;
+    border-radius: 5rem;
+    margin-left: 5rem;
+    width: 60%;
+    transition: .1s linear;
+}
+
+.px-4:hover {
+    background-color: rgb(222, 169, 72);
+    color: rgb(72, 54, 31);
+    transition: .1s linear;
+}
+
