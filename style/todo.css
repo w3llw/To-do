@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
 * {
     font-family: "Tektur", sans-serif;
+}
+
+.text-2xl {
+    border: black solid 2px;
+    padding: 6px;
+    border-radius: 5rem;
+    background-color: rgb(72, 54, 31);
+    color: white;
 }
 
 
 body {
     background-color: rgb(222, 169, 72);
 }
+
 .container {
     color: rgb(72, 54, 31);
     background-color: rgb(250, 222, 188);
@@ -35,3 +45,38 @@ body {
     transition: .1s linear;
 }
 
+.text-lg {
+    color: black;
+}
+
+#txt2 {
+    border: black solid 1px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-bottom: black solid 2px;
+}
+
+.icons .bx {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    border: black solid 1px;
+    border-radius: 100%;
+    border-color: black;
+    background-color: black
+}
+
+#todoList {
+    margin-top: 1rem;
+}
+
+.liniya {
+    margin-top: 2rem;
+    border: black solid 1px;
+}
